@@ -13,15 +13,15 @@ const Service = () => {
         </div>
         <div className="flex  flex-col items-center justify-center">
           <h1 className="text-sm font-bold text-black/80 dark:text-white sm:text-lg md:text-3xl">
-            <CountUp end={56} suffix="+" duration={2.75} />
+            <CountUp end={100} suffix="%" duration={2.75} />
           </h1>
-          <h1 className=" sm:text-md text-xs md:text-lg">projects</h1>
+          <h1 className=" sm:text-md text-xs md:text-lg">satisfaction</h1>
         </div>
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-sm font-bold text-black/80 dark:text-white sm:text-lg md:text-3xl">
-            <CountUp end={234} suffix="k+" />
+            <CountUp end={50} suffix="+" />
           </h1>
-          <h1 className="sm:text-md text-xs md:text-lg">Subscribers</h1>
+          <h1 className="sm:text-md text-xs md:text-lg">projects</h1>
         </div>
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-sm font-bold text-black/80 dark:text-white sm:text-lg md:text-3xl">
@@ -35,7 +35,7 @@ const Service = () => {
               suffix="+"
             />
           </h1>
-          <h1 className="sm:text-md text-xs  md:text-lg">Clients</h1>
+          <h1 className="sm:text-md text-xs  md:text-lg">engagements</h1>
         </div>
       </div>
     </section>

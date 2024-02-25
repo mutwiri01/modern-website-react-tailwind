@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import Img1 from "../../assets/blog1.jpg";
-import Img2 from "../../assets/blog2.jpg";
-import Img3 from "../../assets/blog3.jpg";
+import Img1 from "../../assets/s1.jpg";
+import Img2 from "../../assets/s2.jpg";
+import Img3 from "../../assets/s3.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -10,7 +10,7 @@ const Blogs = () => {
     <main data-aos="fade-up" data-aos-offset="200">
       <section className="container mb-10 py-8">
         <h1 className="mb-8 border-l-8 py-2 pl-2 text-center text-3xl font-bold">
-          Our Latest Blogs
+        Explore Our Services
         </h1>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
           <div
@@ -24,17 +24,13 @@ const Blogs = () => {
                 className="mx-auto h-[250px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
-            <div className="flex justify-between pt-2 text-slate-600">
-              <p>April 24, 2022</p>
-              <p className="line-clamp-1"> By Dilshad</p>
-            </div>
             <div className="space-y-3 py-3">
               <h1 className="line-clamp-1 text-xl font-bold">
-                How to grow your business. How to grow your business.
+              Residential Waste Collection.
               </h1>
-              <p className="line-clamp-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
-                consectetur adipisicing elit.
+              <p >
+              From weekly curbside pickup to special waste disposal services, we make managing household waste
+               convenient and hassle-free
               </p>
             </div>
           </div>
@@ -49,17 +45,13 @@ const Blogs = () => {
                 className="mx-auto h-[250px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
-            <div className="flex justify-between pt-2 text-slate-600">
-              <p>Jan 3, 2023</p>
-              <p className="line-clamp-1"> By Akshay</p>
-            </div>
             <div className="space-y-3 py-3">
               <h1 className="line-clamp-1 text-xl font-bold">
-                How to grow your business. How to grow your business.
+              Commercial Waste Management.
               </h1>
-              <p className="line-clamp-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
-                consectetur adipisicing elit.
+              <p >
+              Let us handle your business waste management needs so you can focus 
+              on what matters most running your business.
               </p>
             </div>
           </div>
@@ -74,21 +66,21 @@ const Blogs = () => {
                 className="mx-auto h-[250px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
-            <div className="flex justify-between pt-2 text-slate-600">
-              <p>April 24, 2024</p>
-              <p className="line-clamp-1"> By Satya</p>
-            </div>
             <div className="space-y-3 py-3">
               <h1 className="line-clamp-1 text-xl font-bold">
-                How to grow your business. How to grow your business.
+              Specialized Solutions.
               </h1>
-              <p className="line-clamp-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
-                consectetur adipisicing elit.
+              <p >
+              We offer a range of specialized services, including hazardous waste disposal, bulk item pickup, 
+              and recycling programs tailored to your requirements.
               </p>
             </div>
           </div>
         </div>
+        
+        <button className="rounded-md bg-green-500 px-4 py-2 text-sm  text-black transition-colors duration-300 hover:bg-white/90">
+              more services
+            </button>
       </section>
     </main>
   );

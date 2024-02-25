@@ -32,13 +32,13 @@ const Navbar2 = () => {
       <header
         data-aos="fade"
         data-aos-duration="300"
-        className="relative z-[99] border-b-[1px]  border-primary/50 bg-gradient-to-l from-violet-900 via-violet-800 to-violet-900 text-white shadow-lg"
+        className="relative z-[99] border-b-[1px]  border-green-500/50 bg-gradient-to-l from-green-300 via-green-500 to-violet-950 text-white shadow-lg"
       >
         <nav className="container  flex h-[70px] items-center justify-between py-2 ">
           <div className="text-2xl text-white md:text-3xl ">
             <a href="/#home" className="">
-              COZ
-              <span className="inline-block font-bold text-primary">WEB</span>
+              ECO
+              <span className="inline-block font-bold text-green-500">WASTE</span>
             </a>
           </div>
           {/* Desktop Menu */}
@@ -141,7 +141,7 @@ const Navbar2 = () => {
                     <p className="text-sm">Call us on</p>
                     <p className="text-lg">
                       {" "}
-                      <a href="tel:+91123456789">+91 123456789</a>
+                      <a href="tel:+91123456789">+254  123456789</a>
                     </p>
                   </div>
                 </li>

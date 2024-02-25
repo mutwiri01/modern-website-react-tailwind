@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../../assets/blog2.jpg";
+import Banner from "../../assets/lg1.svg";
 
 const BannerDetails = ({ reverse, img }) => {
   return (
@@ -16,28 +16,23 @@ const BannerDetails = ({ reverse, img }) => {
               } `}
             >
               <h1 className="text-2xl md:text-4xl ">
-                We Build Apps That Get Trending On Appworld
+                Our Commitment to Excellence
               </h1>
               <p className="text-sm text-slate-600 dark:text-slate-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-                ducimus eius quis ad enim aliquid iusto eum nihil exercitationem
-                necessitatibus?
+              Our experience in the industry has earned us a reputation for excellence through our unwavering 
+              commitment to customer satisfaction, innovative practices, and strict adherence to safety and 
+              environmental standards. 
               </p>
               <div>
                 <ul className="flex list-inside list-disc flex-col gap-2  md:gap-4">
                   <li className="font-medium">
-                    Lorem ipsum adipisicing elit. Cum, vel.
+                  Reliable Service: We understand the importance of timely waste collection. Count on us to be there when you need us, every time.
                   </li>
                   <li className="font-medium">
-                    dlss ipsum adipisicing elit. Cum, vel.
+                  Sustainability: We prioritize environmental sustainability by promoting recycling, reducing waste, and implementing eco-friendly practices
                   </li>
-                  <li className="font-medium">adipisicing elit. Cum, vel.</li>
+                  
                 </ul>
-              </div>
-              <div className="space-x-4">
-                <button className="rounded-md border-2 border-primary bg-primary px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-primary/80">
-                  Get Started
-                </button>
               </div>
             </div>
             <div

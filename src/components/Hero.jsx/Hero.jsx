@@ -1,9 +1,9 @@
 import React from "react";
-import Banner from "../../assets/undraw_real_time_sync_re_nky7.svg";
+import Banner from "../../assets/hr2.jpg";
 
 const Hero = () => {
   return (
-    <main className="bg-gradient-to-r from-violet-950 to-violet-900 pt-20 dark:bg-violet-950">
+    <main className="bg-gradient-to-r from-green-300 to-green-500 pt-20 dark:bg-violet-950">
       <section className="container flex h-[650px] flex-col items-center justify-center md:h-[500px] ">
         <div className="grid grid-cols-1 items-center gap-8 dark:text-white md:grid-cols-2">
           <div
@@ -13,21 +13,14 @@ const Hero = () => {
             className="flex flex-col items-center gap-4 text-center text-white md:items-start md:text-left "
           >
             <h1 className=" text-4xl ">
-              We Build Apps That Get Trending On Appworld
+            Welcome to EcoWaste Solutions   Your Trusted Partner in Waste Management
             </h1>
             <p className="">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-              ducimus eius quis ad enim aliquid iusto eum nihil exercitationem
-              necessitatibus?
+            At EcoWaste Solutions, we are passionate advocates for cleaner communities, 
+            healthier environments, and a sustainable future for all.As a leading provider of waste management 
+            solutions, we are dedicated to delivering reliable, efficient, and environmentally responsible 
+            services to homes and businesses alike
             </p>
-            <div className="space-x-4">
-              <button className="rounded-md border-2 border-primary bg-primary px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-primary/80">
-                Get Started
-              </button>
-              <button className="border-1  rounded-md border-2 border-white px-4 py-2 text-sm text-white transition-colors duration-300 ">
-                Get Started
-              </button>
-            </div>
           </div>
           <div
             data-aos="fade-left"

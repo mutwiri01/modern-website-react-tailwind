@@ -11,8 +11,9 @@ import Navbar2 from "./components/navbar/Navbar2";
 import { useEffect } from "react";
 import Service from "./components/Service/Service";
 import BannerDetails from "./components/BannerDetails/BannerDetails";
-import Banner1 from "./assets/blog1.jpg";
-import Banner2 from "./assets/blog3.jpg";
+import Bnd from "./components/BannerDetails/Bnd";
+import Banner1 from "./assets/lg1.svg";
+import Banner2 from "./assets/tc1.jpg";
 
 function App() {
   useEffect(() => {
@@ -34,7 +35,7 @@ function App() {
         <Hero />
         <Service />
         <BannerDetails reverse={true} img={Banner1} />
-        <BannerDetails img={Banner2} />
+        <Bnd img={Banner2} />
         <Banner />
         <Blogs />
         {/* <Swipe /> */}
