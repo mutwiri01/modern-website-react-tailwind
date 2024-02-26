@@ -13,8 +13,7 @@ const ResponsiveMenu = ({ showMenu }) => {
         <div className="flex items-center justify-start gap-3">
           <FaUserCircle size={50} />
           <div>
-            <h1>Dilshad Ahmed</h1>
-            <h1 className="text-sm text-slate-500">Premium user</h1>
+            <h1>ECOWASTE SOLUTIONS</h1>
           </div>
         </div>
         <nav className="mt-12">
@@ -26,12 +25,12 @@ const ResponsiveMenu = ({ showMenu }) => {
             </li>
             <li>
               <a href="#" className="mb-5 inline-block">
-                Top Stories
+                Services
               </a>
             </li>
             <li>
               <a href="#" className="mb-5 inline-block">
-                Submit your story
+                About
               </a>
             </li>
             <li>
@@ -43,7 +42,7 @@ const ResponsiveMenu = ({ showMenu }) => {
         </nav>
       </div>
       <div className="footer">
-        <h1>© 2022 All Rights Reserved</h1>
+        <h1>© EcoWaste All Rights Reserved</h1>
       </div>
     </div>
   );
