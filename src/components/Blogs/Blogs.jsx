@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from 'react-router-dom';
 import Img1 from "../../assets/bn8.jpg";
 import Img2 from "../../assets/b9.jpg";
 import Img3 from "../../assets/b10.jpg";
@@ -78,9 +79,11 @@ const Blogs = () => {
           </div>
         </div>
         
-        <button className="rounded-md bg-green-500 px-4 py-2 text-sm  text-black transition-colors duration-300 hover:bg-white/90">
-              more services
-            </button>
+        <Link to="/service">
+  <button className="rounded-md bg-green-500 px-4 py-2 text-sm text-black transition-colors duration-300 hover:bg-white/90">
+    More Services
+  </button>
+</Link>
       </section>
     </main>
   );
