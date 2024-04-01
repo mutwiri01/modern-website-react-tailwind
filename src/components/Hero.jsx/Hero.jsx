@@ -13,10 +13,10 @@ const Hero = () => {
             className="flex flex-col items-center gap-4 text-center text-white md:items-start md:text-left "
           >
             <h1 className=" text-4xl ">
-            Welcome to EcoWaste Solutions   Your Trusted Partner in Waste Management
+            Welcome to Bin-IT Solutions   Your Trusted Partner in cleaning solutions
             </h1>
             <p className="">
-            At EcoWaste Solutions, we are passionate advocates for cleaner communities, 
+            At Bin-It Solutions, we are passionate advocates for cleaner communities, 
             healthier environments, and a sustainable future for all.As a leading provider of waste management 
             solutions, we are dedicated to delivering reliable, efficient, and environmentally responsible 
             services to homes and businesses alike

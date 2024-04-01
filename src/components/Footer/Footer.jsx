@@ -15,12 +15,12 @@ const Footer = () => {
           <div className=" px-4 py-8 ">
             <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-3xl">
               <a href="/#home" className="">
-                ECO
-                <span className="inline-block font-bold text-green-500">WASTE</span>
+                BIN
+                <span className="inline-block font-bold text-green-500">-IT</span>
               </a>
             </h1>
             <p className="">
-            EcoWaste Services: Tailored Solutions for Sustainable Waste Management{" "}
+            BIN-IT: Tailored Solutions for Sustainable Waste Management{" "}
             </p>
             <br />
             <div className="flex items-center gap-3">
@@ -35,22 +35,6 @@ const Footer = () => {
           </div>
           <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10 ">
             <div className="">
-              <div className="px-4 py-8 ">
-                <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-xl">
-                  Important Links
-                </h1>
-                <ul className={`flex flex-col gap-3`}>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    Home
-                  </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    About
-                  </li>
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                    Services
-                  </li>
-                </ul>
-              </div>
             </div>
            
             <div className="">
@@ -70,14 +54,14 @@ const Footer = () => {
                       <FaLinkedin className="text-3xl" />
                     </a>
                   </div>
-                </div>
+                </div>  
               </div>
             </div>
           </div>
         </div>
         <div>
           <div className="border-t-2 border-gray-300/50 py-6 text-center">
-            @copyright 2024 ECOWASTE
+            @copyright 2024 BIN-IT
           </div>
         </div>
       </section>

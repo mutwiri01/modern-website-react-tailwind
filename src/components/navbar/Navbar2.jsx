@@ -3,6 +3,7 @@ import { BiSolidSun, BiPhoneCall, BiSolidMoon } from "react-icons/bi";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import { FaCaretDown } from "react-icons/fa";
 import ResponsiveMenu from "./ResponsiveMenu";
+
 const Navbar2 = () => {
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light",
@@ -32,13 +33,13 @@ const Navbar2 = () => {
       <header
         data-aos="fade"
         data-aos-duration="300"
-        className="relative z-[99] border-b-[1px]  border-green-500/50 bg-gradient-to-l from-green-300 via-green-500 to-violet-950 text-white shadow-lg"
+        className="fixed top-0 left-0 right-0 z-[99] border-b-[1px] border-green-500/50 bg-gradient-to-l from-green-300 via-green-500 to-violet-950 text-white shadow-lg"
       >
-        <nav className="container  flex h-[70px] items-center justify-between py-2 ">
-          <div className="text-2xl text-white md:text-3xl ">
-            <a href="/#home" className="">
-              ECO
-              <span className="inline-block font-bold text-green-500">WASTE</span>
+        <nav className="container flex h-[70px] items-center justify-between py-2">
+          <div className="text-2xl text-white md:text-3xl">
+            <a href="/" className="">
+              BIN
+              <span className="inline-block font-bold text-green-500">-IT</span>
             </a>
           </div>
           {/* Desktop Menu */}
@@ -46,25 +47,15 @@ const Navbar2 = () => {
             <ul className="flex items-center gap-10">
               <li className="group relative cursor-pointer">
                 <a
-                  href="/#home"
+                  href="/"
                   className="flex h-[72px] items-center gap-[2px]"
                 >
                   Home{" "}
-                  <span>
-                    <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
-                  </span>
                 </a>
-                <div className="absolute -left-9 z-[9999] hidden w-[150px] rounded-md bg-white p-2 text-black group-hover:block  ">
-                  <ul className="space-y-3">
-                    <li className="p-2 hover:bg-violet-200">Services</li>
-                    <li className="p-2 hover:bg-violet-200">About us</li>
-                    <li className="p-2 hover:bg-violet-200">Privacy policy</li>
-                  </ul>
-                </div>
               </li>
               <li className="cursor pointer group">
                 <a
-                  href="/#home"
+                  href="/service"
                   className="flex h-[72px] items-center gap-[2px]"
                 >
                   Services{" "}
@@ -83,41 +74,39 @@ const Navbar2 = () => {
                     </div>
                     <div className="col-span-2">
                       <h1 className="pb-3 text-xl font-semibold">
-                        Best Selling
+                        Our Services
                       </h1>
                       <p className="text-sm text-slate-600">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Aspernatur exercitationem delectus iusto animi
-                        aperiam deleniti reprehenderit doloribus, numquam
-                        corporis quae.
+                      We offer a comprehensive range of cleaning solutions tailored to meet 
+                      the diverse needs of our residential and commercial clients.
                       </p>
                       <div className="grid grid-cols-3 ">
                         <ul className="mt-3 flex flex-col gap-2">
                           <h1 className="pb-1 text-xl font-semibold">
-                            Development
+                          Residential Cleaning Services
                           </h1>
                           <li className="cursor-pointer text-black/80 hover:text-primary">
-                            Web development
+                          Fumigation
                           </li>
                           <li className="cursor-pointer text-black/80 hover:text-primary">
-                            IOS App Development
+                          Upholstery Cleaning
                           </li>
                           <li className="cursor-pointer text-black/80 hover:text-primary">
-                            App Development
+                          Move-In/Move-Out Cleaning
                           </li>
                         </ul>
                         <ul className="mt-3 flex flex-col gap-2">
                           <h1 className="pb-1 text-xl font-semibold">
-                            Other Services
+                          Commercial Cleaning Services
                           </h1>
                           <li className="cursor-pointer text-black/80 hover:text-primary">
-                            Cloud Services
+                          Office Cleaning
                           </li>
                           <li className="cursor-pointer text-black/80 hover:text-primary">
-                            Mobile App
+                          Janitorial Services
                           </li>
                           <li className="cursor-pointer text-black/80 hover:text-primary">
-                            App Development
+                          Post-Construction Cleaning
                           </li>
                         </ul>
                         <div>
@@ -129,7 +118,7 @@ const Navbar2 = () => {
                 </div>
               </li>
               <li className="cursor pointer">
-                <a href="/#contact">About us</a>
+                <a href="/about">About us</a>
               </li>
               {/* Phone number section */}
               <div className="flex items-center gap-4">
@@ -141,7 +130,7 @@ const Navbar2 = () => {
                     <p className="text-sm">Call us on</p>
                     <p className="text-lg">
                       {" "}
-                      <a href="tel:+91123456789">+254  123456789</a>
+                      <a href="tel:+91123456789">+254 123456789</a>
                     </p>
                   </div>
                 </li>

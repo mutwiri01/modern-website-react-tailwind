@@ -13,28 +13,28 @@ const ResponsiveMenu = ({ showMenu }) => {
         <div className="flex items-center justify-start gap-3">
           <FaRecycle size={50} />
           <div>
-            <h1>ECOWASTE SOLUTIONS</h1>
+            <h1>BIN-IT</h1>
           </div>
         </div>
         <nav className="mt-12">
           <ul className="space-y-4 text-xl">
             <li>
-              <a href="#" className="mb-5 inline-block">
+              <a href="/" className="mb-5 inline-block">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="mb-5 inline-block">
+              <a href="/service" className="mb-5 inline-block">
                 Services
               </a>
             </li>
             <li>
-              <a href="#" className="mb-5 inline-block">
+              <a href="/about" className="mb-5 inline-block">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="mb-5 inline-block">
+              <a href="/about" className="mb-5 inline-block">
                 Contact
               </a>
             </li>
@@ -42,7 +42,7 @@ const ResponsiveMenu = ({ showMenu }) => {
         </nav>
       </div>
       <div className="footer">
-        <h1>© EcoWaste All Rights Reserved</h1>
+        <h1>© Bin-IT All Rights Reserved</h1>
       </div>
     </div>
   );
