@@ -31,6 +31,11 @@ function App() {
         <div className="fixed left-0 right-0 top-0 z-50 bg-gradient-to-l from-violet-900 via-violet-800 to-violet-900 ">
           {/* <Navbar /> */}
           <Navbar2 />
+          <div>
+
+            
+          </div>
+
         </div>
         <Hero />
         <Service />
