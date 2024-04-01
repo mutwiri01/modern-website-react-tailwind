@@ -27,7 +27,7 @@ const Blogs = () => {
             </div>
             <div className="space-y-3 py-3">
               <h1 className="line-clamp-1 text-xl font-bold">
-              Residential Waste Collection.
+              Residential Cleaning.
               </h1>
               <p >
               From weekly curbside pickup to special waste disposal services, we make managing household waste
@@ -48,7 +48,7 @@ const Blogs = () => {
             </div>
             <div className="space-y-3 py-3">
               <h1 className="line-clamp-1 text-xl font-bold">
-              Commercial Waste Management.
+              Commercial cleaning.
               </h1>
               <p >
               Let us handle your business waste management needs so you can focus 
